@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function Login() {
+export default function SpotifyLogin() {
   const handleClick = async () => {
     const client_id = "7b66c3f80c1944c1bbe48f94523d38be";
     const redirect_uri = "https://skimi-react-music.vercel.app/";
