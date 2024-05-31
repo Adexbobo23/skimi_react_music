@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Login() {
   const handleClick = async () => {
     const client_id = "7b66c3f80c1944c1bbe48f94523d38be";
-    const redirect_uri = "http://127.0.0.1:3000/";
+    const redirect_uri = "https://skimi-react-music.vercel.app/";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
