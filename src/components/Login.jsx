@@ -22,7 +22,7 @@ export default function Login() {
   return (
     <Container>
       <img
-        src="https://skimi.net/static/assets/images/skimi_logo.png"
+        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Black.png"
         alt="spotify"
       />
       <button onClick={handleClick}>Connect Spotify</button>
@@ -37,10 +37,10 @@ const Container = styled.div`
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background-color: #800080;
+  background-color: #1db954;
   gap: 5rem;
   img {
-    height: 30vh;
+    height: 20vh;
   }
   button {
     padding: 1rem 5rem;
